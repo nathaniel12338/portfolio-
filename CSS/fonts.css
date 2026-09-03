@@ -1,0 +1,200 @@
+
+/* =========================================================
+   EPILOGUE
+========================================================= */
+
+@font-face {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/epilogue/v17/O4ZRFGj5hxF0EhjimlIksgg.woff2")
+        format("woff2");
+}
+
+@font-face {
+    font-family: "Epilogue";
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/epilogue/v17/O4ZXFGj5hxF0EhjimlIhggoykg.woff2")
+        format("woff2");
+}
+
+
+/* =========================================================
+   INTER
+========================================================= */
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcvvYwY.woff2")
+        format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/inter/v18/UcCm3FwrK3iLTcvnUwQT9g.woff2")
+        format("woff2");
+}
+
+
+/* =========================================================
+   SORA
+========================================================= */
+
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 100 800;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/sora/v12/xMQbuFFYT72XzQUpDg.woff2")
+        format("woff2");
+}
+
+
+/* =========================================================
+   NASALIZATION
+========================================================= */
+
+@font-face {
+    font-family: "Nasalization";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Nasalization Rg.otf")
+        format("opentype");
+}
+
+
+/* =========================================================
+   FONT VARIABLES
+========================================================= */
+
+:root {
+    --font-primary: "Epilogue", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+    --font-heading: "Sora", sans-serif;
+    --font-futuristic: "Nasalization", sans-serif;
+}
+
+
+/* =========================================================
+   GLOBAL FONT
+========================================================= */
+
+html,
+body {
+    font-family: var(--font-primary);
+}
+
+
+/* =========================================================
+   HEADINGS
+========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+
+/* =========================================================
+   TEMPLATE FONT CLASSES
+========================================================= */
+
+/* Heading / display font */
+.font-2 {
+    font-family: var(--font-heading) !important;
+}
+
+/* Main body / label font */
+.font-3 {
+    font-family: var(--font-primary) !important;
+}
+
+/* Secondary font */
+.font-4 {
+    font-family: var(--font-secondary) !important;
+}
+
+
+/* =========================================================
+   NASALIZATION CLASS
+========================================================= */
+
+.font-nasalization {
+    font-family: var(--font-futuristic) !important;
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+========================================================= */
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+}
+
+
+/* =========================================================
+   LINKS
+========================================================= */
+
+a {
+    font-family: inherit;
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+.nav-menu,
+.nav-menu a,
+.nav-menu .tooltip {
+    font-family: var(--font-primary);
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.tf-btn {
+    font-family: var(--font-primary);
+}
+
+
+/* =========================================================
+   LABELS
+========================================================= */
+
+.text-label {
+    font-family: var(--font-primary);
+}
+
+
+/* =========================================================
+   BODY TEXT
+========================================================= */
+
+.text-body-1,
+.text-body-2,
+.text-caption-1,
+.text-caption-2 {
+    font-family: var(--font-primary);
+}
